@@ -9,8 +9,8 @@
     "url": "https://github.com/AyuGram/AyuGramDesktop/releases/download/v4.15/AyuGram.zip",
     "hash": "f057c7a1a7f3e930af50ac6ee18004ba592cdda251769ebecff42209d5707f5d",
     "pre_install": [
-        "Remove-Item \"$dir\\Updater.exe\"",
-        "if (Test-Path \"$persist_dir\\log.txt\") { Copy-Item \"$persist_dir\\log.txt\" \"$dir\\\" }"
+        "if (Test-Path \"$persist_dir\\log.txt\") { Copy-Item \"$persist_dir\\log.txt\" \"$dir\\\" }",
+        "Remove-Item \"$dir\\Updater.exe\""
     ],
     "pre_uninstall": [
         "if (Test-Path \"$dir\\log.txt\") { Copy-Item \"$dir\\log.txt\" \"$persist_dir\\\" }"
