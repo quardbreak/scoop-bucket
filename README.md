@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/quardbreak/scoop-bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/quardbreak/scoop-bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/quardbreak/scoop-bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/quardbreak/scoop-bucket/actions/workflows/excavator.yml)
 
-A personal bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+This is my personal bucket with some manifests I made for myself, or took from the upstream in order to modify for my own purposes.
 
 ## How do I install manifests from here?
 
